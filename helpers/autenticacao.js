@@ -1,7 +1,9 @@
+import { pegarBaseUrl } from "../utils/variaveis";
+
 const postLogin = JSON.parse(open('../fixtures/postLogin.json'))
 
 export function obterToken() {
-    const url = 'http://localhost:3000/login';
+    const url = pegarBaseUrl() + '/login';
     
     console.log(postLogin)
     const payload = JSON.stringify(postLogin);
