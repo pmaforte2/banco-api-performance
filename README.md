@@ -55,6 +55,7 @@ Funções reutilizáveis utilizados nos testes:
 
 ### 📁 `fixtures/`
 Dados utilizados em vários testes
+
 ---
 
 ## ⚙️ Modo de Instalação
